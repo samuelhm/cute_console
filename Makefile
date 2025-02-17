@@ -6,11 +6,11 @@
 #    By: shurtado <shurtado@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/07 01:23:11 by shurtado          #+#    #+#              #
-#    Updated: 2025/02/17 21:39:00 by shurtado         ###   ########.fr        #
+#    Updated: 2025/02/18 00:43:28 by shurtado         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME		=	libCuteConsole.a
+NAME		=	libcute.a
 TEST_PROG	=	program
 CC			=	c++
 AR			=	ar rcs
