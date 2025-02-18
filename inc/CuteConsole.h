@@ -6,7 +6,7 @@
 /*   By: shurtado <shurtado@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/17 21:20:46 by shurtado          #+#    #+#             */
-/*   Updated: 2025/02/17 21:34:08 by shurtado         ###   ########.fr       */
+/*   Updated: 2025/02/18 01:38:12 by shurtado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 #include <string>
 #include <iostream>
 
-typedef const std::string string_t;
+typedef std::string string_t;
 
 #include "../src/Color/Color.hpp"
 #include "../src/Emoji/Emoji.hpp"

@@ -6,7 +6,7 @@
 /*   By: shurtado <shurtado@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/17 21:01:49 by shurtado          #+#    #+#             */
-/*   Updated: 2025/02/17 21:26:42 by shurtado         ###   ########.fr       */
+/*   Updated: 2025/02/18 01:48:52 by shurtado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,7 +66,14 @@ namespace Color
 	string_t bbg_white   = "\033[107m";
 }
 
-void printStyled(const std::string &message, const std::string &color)
+void printCute(string_t message, string_t color)
 {
-	std::cout << color << message << Color::reset << std::endl;
+	std::cout << color << message << Color::reset;
+}
+
+std::string toString(size_t num)
+{
+	std::ostringstream oss;
+	oss << num;
+	return oss.str();
 }

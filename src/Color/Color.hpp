@@ -6,7 +6,7 @@
 /*   By: shurtado <shurtado@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/17 21:01:37 by shurtado          #+#    #+#             */
-/*   Updated: 2025/02/17 21:25:56 by shurtado         ###   ########.fr       */
+/*   Updated: 2025/02/18 01:41:56 by shurtado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,9 @@
 #define COLOR_HPP
 
 #include "../../inc/CuteConsole.h"
+#include <sstream>
 
-namespace color
+namespace Color
 {
 	// Reset para volver al color normal
 	extern string_t reset   ;
@@ -69,6 +70,7 @@ namespace color
 	extern string_t bbg_white;
 }
 
-void printCute(string_t &message, string_t &color);
+void printCute(string_t message, string_t color);
+std::string toString(size_t num);
 
 #endif
