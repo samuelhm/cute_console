@@ -6,7 +6,7 @@
 /*   By: shurtado <shurtado@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/17 21:01:37 by shurtado          #+#    #+#             */
-/*   Updated: 2025/02/18 01:41:56 by shurtado         ###   ########.fr       */
+/*   Updated: 2025/03/11 19:04:41 by shurtado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,55 +19,55 @@
 namespace Color
 {
 	// Reset para volver al color normal
-	extern string_t reset   ;
+	extern const string_t reset   ;
 
 	// 🎨 8 Colores Básicos
-	extern string_t black;
-	extern string_t red;
-	extern string_t green;
-	extern string_t yellow;
-	extern string_t blue;
-	extern string_t magenta;
-	extern string_t cyan;
-	extern string_t white;
+	extern const string_t black;
+	extern const string_t red;
+	extern const string_t green;
+	extern const string_t yellow;
+	extern const string_t blue;
+	extern const string_t magenta;
+	extern const string_t cyan;
+	extern const string_t white;
 
 	// ✨ 8 Colores Brillantes
-	extern string_t bblack;
-	extern string_t bred;
-	extern string_t bgreen;
-	extern string_t byellow;
-	extern string_t bblue;
-	extern string_t bmagenta;
-	extern string_t bcyan;
-	extern string_t bwhite;
+	extern const string_t bblack;
+	extern const string_t bred;
+	extern const string_t bgreen;
+	extern const string_t byellow;
+	extern const string_t bblue;
+	extern const string_t bmagenta;
+	extern const string_t bcyan;
+	extern const string_t bwhite;
 
-	extern string_t bold;         // Negrita
-	extern string_t dim;          // Atenuado
-	extern string_t italic;       // Cursiva (No siempre funciona)
-	extern string_t underline;    // Subrayado
-	extern string_t blink;        // Parpadeo
-	extern string_t reverse;      // Invertido
-	extern string_t hidden;       // Oculto
+	extern const string_t bold;         // Negrita
+	extern const string_t dim;          // Atenuado
+	extern const string_t italic;       // Cursiva (No siempre funciona)
+	extern const string_t underline;    // Subrayado
+	extern const string_t blink;        // Parpadeo
+	extern const string_t reverse;      // Invertido
+	extern const string_t hidden;       // Oculto
 
 	// 🎨 8 Colores de Fondo
-	extern string_t bg_black;
-	extern string_t bg_red;
-	extern string_t bg_green;
-	extern string_t bg_yellow;
-	extern string_t bg_blue;
-	extern string_t bg_magenta;
-	extern string_t bg_cyan;
-	extern string_t bg_white;
+	extern const string_t bg_black;
+	extern const string_t bg_red;
+	extern const string_t bg_green;
+	extern const string_t bg_yellow;
+	extern const string_t bg_blue;
+	extern const string_t bg_magenta;
+	extern const string_t bg_cyan;
+	extern const string_t bg_white;
 
 	// ✨ 8 Fondos Brillantes
-	extern string_t bbg_black;
-	extern string_t bbg_red;
-	extern string_t bbg_green;
-	extern string_t bbg_yellow;
-	extern string_t bbg_blue;
-	extern string_t bbg_magenta;
-	extern string_t bbg_cyan;
-	extern string_t bbg_white;
+	extern const string_t bbg_black;
+	extern const string_t bbg_red;
+	extern const string_t bbg_green;
+	extern const string_t bbg_yellow;
+	extern const string_t bbg_blue;
+	extern const string_t bbg_magenta;
+	extern const string_t bbg_cyan;
+	extern const string_t bbg_white;
 }
 
 void printCute(string_t message, string_t color);
