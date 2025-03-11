@@ -6,7 +6,7 @@
 #    By: shurtado <shurtado@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/07 01:23:11 by shurtado          #+#    #+#              #
-#    Updated: 2025/02/18 00:43:28 by shurtado         ###   ########.fr        #
+#    Updated: 2025/03/11 18:58:47 by shurtado         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,8 +14,7 @@ NAME		=	libcute.a
 TEST_PROG	=	program
 CC			=	c++
 AR			=	ar rcs
-CXXFLAGS	=	-D_GLIBCXX_USE_CXX11_ABI=0 -std=c++98
-CPPFLAGS	=	$(CXXFLAGS) -g -Wall -Werror -Wextra -MMD -MP -Iinc
+CPPFLAGS	=	-std=c++98 -g -Wall -Werror -Wextra -MMD -MP -Iinc
 
 CLASSES		=	Color Emoji Frame
 
