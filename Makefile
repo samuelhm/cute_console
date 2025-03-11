@@ -14,7 +14,8 @@ NAME		=	libcute.a
 TEST_PROG	=	program
 CC			=	c++
 AR			=	ar rcs
-CPPFLAGS	=	-g -Wall -Werror -Wextra -std=c++98 -MMD -MP -Iinc
+CXXFLAGS	=	-D_GLIBCXX_USE_CXX11_ABI=0 -std=c++98
+CPPFLAGS	=	$(CXXFLAGS) -g -Wall -Werror -Wextra -MMD -MP -Iinc
 
 CLASSES		=	Color Emoji Frame
 
@@ -28,7 +29,7 @@ $(NAME): $(OBJS)
 	@echo "🔨 Creando librería estática $(NAME)..."
 	$(AR) $@ $^
 
-obj/%.o: %.cpp
+obj/%.o: %.cpp Makefile
 	@mkdir -p $(dir $@)
 	$(CC) $(CPPFLAGS) -c $< -o $@
 
