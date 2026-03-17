@@ -34,7 +34,8 @@ El estándar **C++98** garantiza compatibilidad con sistemas legacy y entornos 4
 
 ```mermaid
 flowchart TD
-    subgraph Usuario["Proyecto Host"]end
+    subgraph Usuario["Proyecto Host"]
+    end
     
     subgraph Lib["libcute.a"]
         H["CuteConsole.h"]
